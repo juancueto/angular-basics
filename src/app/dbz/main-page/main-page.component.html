@@ -1,0 +1,44 @@
+<h1>Dragon Ball Z!</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes></app-personajes>
+        <!-- <h3>Personajes</h3>
+        <ul>
+            <li *ngFor="let personaje of personajes">{{personaje.nombre}} - {{personaje.poder | number}}</li>
+        </ul> -->
+    </div>
+
+    <div class="col">
+        <app-agregar 
+            [nuevo]="nuevo" 
+        >
+        <!-- (onNuevoPersonaje)="agregarNuevoPersonaje($event)" -->
+        </app-agregar>
+        <!-- <h3>Agregar</h3>
+
+        <hr>
+        <form (ngSubmit)="agregar()" > -->
+            <!-- $event -->
+            <!-- <input 
+                type="text" 
+                name="nombre" 
+                placeholder="nombre"
+                [(ngModel)]="nuevo.nombre"
+            /> -->
+            <!-- [value]="nuevo.nombre"
+                (input)="cambiarNombre($event)" -->
+            
+                <!-- <input 
+                type="text" 
+                name="poder" 
+                placeholder="poder"
+                [(ngModel)]="nuevo.poder"
+            /> -->
+            <!-- [value]="nuevo.poder" -->
+
+            <!-- <button type="submit">Agregar</button>
+        </form> -->
+    </div>
+</div>
